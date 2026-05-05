@@ -61,7 +61,7 @@ Prompt_Injection/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/sinha-sanchay/prompt-injection-detection.git
+git clone https://github.com/sinha-sanchay/PromptAegis.git
 cd prompt-injection-detection
 ```
 
@@ -208,38 +208,6 @@ python -m pytest tests/
 jupyter notebook Notebooks/2_advanced_ml_ensemble_threshold.ipynb
 ```
 
-## Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/improvement`)
-3. Commit changes (`git commit -am 'Add improvement'`)
-4. Push to branch (`git push origin feature/improvement`)
-5. Create Pull Request
-
 ## License
 
 MIT License - See LICENSE file for details
-
-## Authors
-
-- Sanchay Sinha
-
-## Acknowledgments
-
-- Ensemble learning techniques
-- Scikit-learn library
-- Machine Learning best practices
-
-## References
-
-- [Prompt Injection Research](https://arxiv.org/abs/2301.12519)
-- [Ensemble Methods](https://scikit-learn.org/stable/modules/ensemble.html)
-- [Stacking Classifiers](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingClassifier.html)
-
-## Contact
-
-For questions or issues, please open an issue on GitHub or contact the maintainers.
-
----
-
-**Last Updated**: May 6, 2026
