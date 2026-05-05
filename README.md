@@ -88,31 +88,11 @@ pip install -e .
 ### Quick Prediction
 
 ```python
-from injex.predictor import PromptPredictor
+from injex import inspect
 
-predictor = PromptPredictor()
-label, score = predictor.predict("Your prompt here")
-print(f"Prediction: {label}, Score: {score}")
+print(inspect("Explain how AI systems work"))
 ```
 
-### Detailed Prediction
-
-```python
-result = predictor.predict("Your prompt here", return_details=True)
-print(f"Label: {result['label']}")
-print(f"Score: {result['score']:.4f}")
-print(f"Confidence: {result['confidence']:.4f}")
-```
-
-### Using Decision Engine
-
-```python
-from injex.decision_engine import DecisionEngine
-
-engine = DecisionEngine()
-decision = engine.evaluate_prompt("Your prompt here")
-print(f"Decision: {decision}")
-```
 
 ## Model Performance
 
