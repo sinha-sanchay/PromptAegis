@@ -61,7 +61,7 @@ Prompt_Injection/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/sinha-sanchay/prompt-injection-detection.git
+git clone https://github.com/sinha-sanchay/PromptAegis.git
 cd prompt-injection-detection
 ```
 
@@ -88,31 +88,11 @@ pip install -e .
 ### Quick Prediction
 
 ```python
-from injex.predictor import PromptPredictor
+from injex import inspect
 
-predictor = PromptPredictor()
-label, score = predictor.predict("Your prompt here")
-print(f"Prediction: {label}, Score: {score}")
+print(inspect("Explain how AI systems work"))
 ```
 
-### Detailed Prediction
-
-```python
-result = predictor.predict("Your prompt here", return_details=True)
-print(f"Label: {result['label']}")
-print(f"Score: {result['score']:.4f}")
-print(f"Confidence: {result['confidence']:.4f}")
-```
-
-### Using Decision Engine
-
-```python
-from injex.decision_engine import DecisionEngine
-
-engine = DecisionEngine()
-decision = engine.evaluate_prompt("Your prompt here")
-print(f"Decision: {decision}")
-```
 
 ## Model Performance
 
@@ -228,38 +208,6 @@ python -m pytest tests/
 jupyter notebook Notebooks/2_advanced_ml_ensemble_threshold.ipynb
 ```
 
-## Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/improvement`)
-3. Commit changes (`git commit -am 'Add improvement'`)
-4. Push to branch (`git push origin feature/improvement`)
-5. Create Pull Request
-
 ## License
 
 MIT License - See LICENSE file for details
-
-## Authors
-
-- Sanchay Sinha
-
-## Acknowledgments
-
-- Ensemble learning techniques
-- Scikit-learn library
-- Machine Learning best practices
-
-## References
-
-- [Prompt Injection Research](https://arxiv.org/abs/2301.12519)
-- [Ensemble Methods](https://scikit-learn.org/stable/modules/ensemble.html)
-- [Stacking Classifiers](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingClassifier.html)
-
-## Contact
-
-For questions or issues, please open an issue on GitHub or contact the maintainers.
-
----
-
-**Last Updated**: May 6, 2026
