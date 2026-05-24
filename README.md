@@ -86,11 +86,6 @@ jupyter notebook
 - Proceed to `2_advanced_ml_ensemble_threshold.ipynb` for improved accuracy with ensemble methods.
 - Use `3_roberta_transformer.ipynb` for transformer-based state-of-the-art results.
 
-
-## Contributing
-
-Pull requests, issues, and suggestions are welcome! Please contribute code, notebooks, or improvements to existing algorithms.
-
 ---
 
 ## License
