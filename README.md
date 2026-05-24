@@ -3,10 +3,6 @@
 
 A modular AI framework for detecting and scoring prompt injection risks in GPT-based systems using ML and transformer models.
 
-![License](https://img.shields.io/github/license/sinha-sanchay/PromptAegis)
-![Python](https://img.shields.io/badge/Python-1.3%25-blue)
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-98.7%25-orange)
-
 ---
 
 ## Overview
